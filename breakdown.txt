@@ -1,0 +1,54 @@
+First attempt at a text based adventure game that has many different paths to take and possibly incorporates the outcomes with the decisions that were chosen.
+
+Setting:
+    Takes place in the Medieval Era, well before modern advancements including things like internal combustion engines, guns, electricity, etc.
+
+Start:
+    You wake up in the middle of a small forest, clearly feeling hungover and unwell. Give the player a couple options on what to do after waking up
+    -Go back to sleep: This should just repeat the process of the player waking up, except now they don't feel sick
+    -Look around: Player takes in their surroundings and is able to see possible ways out of the forest
+
+Part 1.1 Go to sleep:
+    -Player goes back to sleep and wakes up just before sundown with the options to go back to sleep again or look around. 
+    -If they go to sleep again they wake up as the sun rises, feeling hungry/thirsty with the only option of looking around
+
+Part 1.2 Look Around:
+    -Player looks around and sees that they fell asleep right on a path with 2 possible ways to go.
+    -One path has no prominent features that entice the player, just an ordinary pathway
+    -The other path the player is able to see a massive smoke cloud growing into the sky somewhere off in the distance
+    (Ordinary = 2.1 / Smokey = 2.2)
+
+Part 2.1 Ordinary: 
+    -The player follows the ordinary path after a short while they come to an opening into a field, with a town on the other end of the field
+    - Give player 2 options of seeing what is in the field or just going straight to the town
+    (Field = 3.1 / Town = 3.2)
+
+Part 2.2 Smokey:
+    -Player decides to go towards the smoke cloud in the sky, eventually coming to end the end of the forest. They push through some brush and come out the other side, revealing a town fair in progress.
+    -Player given the options of walking towards the food section of the fair, the games section, or the entertainment section.
+    (Food = 4.1 / Games = 4.2 / Entertainment = 4.3)
+
+Part 3.1 Field:
+    -Player decides to see what is in the field. As they walk through the field they can see the town inching closer, and a farmhouse stationed nearby.
+    -Choice of walking towards the farmhouse or opting to instead go towards the town
+    (Farmhouse = 5.1 / Town = 3.2)
+
+Part 3.2 Town:
+    -Player walks towards the town where they see a bunch of people going about their day as usual. As they look around they are able to see a young woman getting robbed, a man selling bread, and a tavern with their doors wide open.
+    (Mugging = 6.1 / Bread = 6.2 / Tavern = 6.3)
+
+Part 4.1 Food:
+    -Player comes across multiple stands with a small variety of foods being offered for sale.
+    -Choice of a few foods and then another option of going to either the games section or the entertainment section of the fair
+    (Games = 4.2 / Entertainment = 4.3)
+
+Part 4.2 Games:
+    -They walk over to the game section after filling their belly.
+    -Available games include bobbing for apples, archery, arm wrestling, or dice gamble (war)
+    ((Apples = 7.1 / Archery = 7.2 / Arm Wrestling = 7.3 / Dice = 7.4 / Entertainment = 4.3))
+
+Part 5.1 Farmhouse:
+    -Players discovers a middle-aged farmer who invites you in for a drink. After speaking with the farmer he explains how he recently lost a son to the flu and his other son has more interest in being a chancellor than continuing his fathers farm.
+    -The farmer says how it has been hard to collect his crop this year and asks if you are willing to help pick the crops with him
+    (Crops = 8.1 / Town = 3.2)
+
